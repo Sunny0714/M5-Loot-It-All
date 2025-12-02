@@ -46,7 +46,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 theme = SubResource("Theme_5xifn")
 
-[node name="Healthbar" type="ProgressBar" parent="UI"]
+[node name="HealthBar" type="ProgressBar" parent="UI"]
 layout_mode = 0
 offset_left = -61.0
 offset_top = -66.0
