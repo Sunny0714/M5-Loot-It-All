@@ -15,5 +15,5 @@ position = Vector2(946, 546)
 [node name="Gem" parent="." instance=ExtResource("3_4rc43")]
 position = Vector2(411, -7)
 
-[node name="HealthPack" parent="Gem" instance=ExtResource("4_dru4e")]
-position = Vector2(-704, -159)
+[node name="HealthPack" parent="." instance=ExtResource("4_dru4e")]
+position = Vector2(-293, -166)
