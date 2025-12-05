@@ -4,3 +4,4 @@ res://assets/ship_visual_effects/main_thruster/thruster_material.tres
 res://assets/background/space_material.tres
 res://random_item_placer.gd
 res://lessons/ship.gd
+res://lessons/item.gd
