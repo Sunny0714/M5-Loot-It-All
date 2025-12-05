@@ -7,13 +7,12 @@
 radius = 28.160255
 
 [node name="Gem" type="Area2D" groups=["gem"]]
+collision_layer = 2
 script = ExtResource("1_edvqy")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(987, 538)
 scale = Vector2(0.75, 0.75)
 texture = ExtResource("2_edvqy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(987, 535)
 shape = SubResource("CircleShape2D_irjl4")
