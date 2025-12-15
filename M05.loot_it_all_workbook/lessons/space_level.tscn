@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://btkjymc78ap8d"]
+[gd_scene load_steps=5 format=3 uid="uid://btkjymc78ap8d"]
 
 [ext_resource type="PackedScene" uid="uid://dmv50krf4bo5r" path="res://lessons/ship.tscn" id="2_2j1u5"]
-[ext_resource type="PackedScene" uid="uid://djdg6fagrspd0" path="res://gem.tscn" id="3_4rc43"]
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="3_e6xy1"]
-[ext_resource type="PackedScene" uid="uid://dy5y3hr4yh2ky" path="res://health_pack.tscn" id="4_dru4e"]
+[ext_resource type="AudioStream" uid="uid://do783p0iwmag" path="res://assets/Audio/BG.ogg" id="4_4rc43"]
 [ext_resource type="PackedScene" uid="uid://b1yl6aosq3kty" path="res://random_item_placer.tscn" id="5_dru4e"]
 
 [node name="Level" type="Node2D"]
@@ -13,10 +12,8 @@ position = Vector2(354, 264)
 
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
-[node name="Gem" parent="." instance=ExtResource("3_4rc43")]
-position = Vector2(-354, -350)
-
-[node name="HealthPack" parent="." instance=ExtResource("4_dru4e")]
-position = Vector2(-270, -173)
-
 [node name="RandomItemPlacer" parent="." instance=ExtResource("5_dru4e")]
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_4rc43")
+autoplay = true

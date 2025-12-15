@@ -77,3 +77,5 @@ offset_bottom = -38.0
 text = "x0
 "
 label_settings = SubResource("LabelSettings_h3paj")
+
+[node name="ThrusterSoundPlayer" type="AudioStreamPlayer" parent="."]
