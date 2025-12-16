@@ -81,3 +81,5 @@ label_settings = SubResource("LabelSettings_h3paj")
 
 [node name="ThrusterSoundPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_2s445")
+
+[node name="PowerupSoundPlayer" type="AudioStreamPlayer" parent="."]
